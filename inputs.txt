@@ -1,0 +1,23 @@
+65
+200
+-90 90
+-180 180
+1
+1
+r MO KS AR OK IA NE ND MN SD TX
+
+Specify the inputs to the temperature analyzer in this file.
+
+first line = optimal temperature (Fahrenheit)
+second line = min north-south distance apart of locations in miles
+third line = min/max latitude in degrees "min max"
+fourth line = min/max longitude in degrees "min max"
+fifth line = whether to show the two locations in Google maps (0 or 1)
+sixth line = whether to make temperature plot using Pylab (0 or 1)
+seventh line: one character, then several state codes
+'r' = required (e.g. locations must be in given states), 'b' = banned (e.g. locations cannot be in given states)
+West Coast ~= -130 long. East Coast ~= -60 long.
+Maine ~= 50 lat.
+S Fl. ~= 25 lat.
+
+b AK HI PR CA FL OR WA NM NC TX AZ LA WV SC GA PA AL NY MS VA NV ME UT NH
