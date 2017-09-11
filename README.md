@@ -3,6 +3,7 @@ Finds a pair of cities with temperatures as close as possible to a specified opt
 
 # Usage Description
 The program reads the sequence of geographical constraints and the optimal temperature from inputs.txt, where they are specified by the user. It then finds a pair of cities subject to the constraints that minimizes the average monthly deviation from the optimal temperature. Depending on the options chosen, it opens a Google maps page showing the route between the two cities. It also generates a graph showing the monthly temperatures in the two cities, which month to move between the cities in order to minimize the average deviation. An example plot is shown below.
+![alt text](https://github.com/VietaFan/TemperatureSearch/blob/master/graph_screenshot.png)
 
 # Data Sources
 
